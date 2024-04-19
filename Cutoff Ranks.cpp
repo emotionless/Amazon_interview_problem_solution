@@ -2,9 +2,14 @@
 Link: https://aonecode.com/amazon-online-assessment-cutoff-ranks
 
 
-A group of work friends at Amazon is playing a competitive video game together. During the game, each player receives a certain amount of points based on their performance. At the end of a round, players who achieve at least a cutoff rank get to "level up" their character, gaining increased abilities for them. Given the scores of the players at the end of the round, how many players will be able to level up their character?
+A group of work friends at Amazon is playing a competitive video game together. During the game, each player receives a certain amount of 
+points based on their performance. At the end of a round, players who achieve at least a cutoff rank get to "level up" their character, 
+gaining increased abilities for them. Given the scores of the players at the end of the round, how many players will be able to level up 
+their character?
 
-Note that players with equal scores will have equal ranks, but the player with the next lowest score will be ranked based on the position within the list of all players' scores. For example, if there are four players, and three players tie for first place, their ranks would be 1,1,1, and 4. Also, no player with a score of O can level up, no matter what their rank.
+Note that players with equal scores will have equal ranks, but the player with the next lowest score will be ranked based on the position
+within the list of all players' scores. For example, if there are four players, and three players tie for first place, their ranks would 
+be 1,1,1, and 4. Also, no player with a score of O can level up, no matter what their rank.
 
 Write an algorithm that returns the count of players able to level up their character.
 
@@ -50,7 +55,8 @@ Output:
 
 Explanation:
 
-There are num= 4 players, where the cutOffRank is 3 and scores = [100, 50,50, 25]. These players' ranks are [1, 2, 2, 4]. Because the players need to have a rank of at least 3 to level up their characters, only the first three players will be able to do so.
+There are num= 4 players, where the cutOffRank is 3 and scores = [100, 50,50, 25]. These players' ranks are [1, 2, 2, 4]. Because the 
+players need to have a rank of at least 3 to level up their characters, only the first three players will be able to do so.
 
 So, the output is 3.
 
