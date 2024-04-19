@@ -1,7 +1,10 @@
 /*
 Problem link: https://aonecode.com/aplusplus/interviewctrl/getInterview/89188231923
 
-AWS CloudFront wants to build an algo to measure the efficiency of its caching network. The network is represented as a number of nodes and a list of connected pairs. The efficiency of this network can be estimated by first summing the cost of each isolated set of nodes where each individual node has a cost of 1. To account for the increase in efficiency as more nodes are connected, update the cost of each isolated set to be the ceiling of the square root of the original cost and return the final sum of all costs.
+AWS CloudFront wants to build an algo to measure the efficiency of its caching network. The network is represented as a number of nodes 
+and a list of connected pairs. The efficiency of this network can be estimated by first summing the cost of each isolated set of nodes 
+where each individual node has a cost of 1. To account for the increase in efficiency as more nodes are connected, update the cost of 
+each isolated set to be the ceiling of the square root of the original cost and return the final sum of all costs.
 
 Example:
 n = 10 nodes
